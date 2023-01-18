@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta http-equiv="content-type" Content-Type: "application/json" ; charset=UTF-8>
+</head>
+
+<body>
+    <div class="container">
+        <form action="http://127.0.0.1:8000/AcceptUser" method="POST">
+            <div class="row">
+                <div class="col-25">
+                    <label for="firstName">FirstName: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lastName">LastName: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="password">Password: </label>
+                </div>
+                <div class="col-75">
+                    <input type="password" name="password" id="password">
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn">
+                    <button id="inviteUserFormSubmitBtn" type="submit"> Accept</button>
+                    <button type="button"> Reject</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
